@@ -155,7 +155,7 @@ st.markdown(
         text-align: center;
     }
     </style>
-    <div class="css-1q1n0ol">Made with ❤️ using Streamlit</div>
+    <div class="css-1q1n0ol">Agaba_Embedded</div>
     """,
     unsafe_allow_html=True
 )
