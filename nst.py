@@ -94,7 +94,8 @@ with st.sidebar:
         1. Upload an image in PNG, JPG, or JPEG format.
         2. The app will process the image using Neural Style Transfer.
         3. View the original and stylized images side by side.
-        4. Download one of the stylized images if you like it!
+        4. Download the stylized images if you like it!
+        5. Change the Style to one of 9 Style using the Select Style option
         """
     )
 
@@ -126,10 +127,10 @@ if uploaded_file:
         st.image(content_image.numpy(), caption="Original Image", use_column_width=True)
 
     with col2:
-        st.image(style.numpy(), caption="Stylized Image 1", use_column_width=True)
+        st.image(style.numpy(), caption="Style Image", use_column_width=True)
 
     with col3:
-        st.image(generated.numpy(), caption="Generated Image", use_column_width=True)
+        st.image(generated.numpy(), caption="Generated/Stylized Image", use_column_width=True)
 
     # Make one of the processed images available for download
     st.markdown("### Download Your Image")
