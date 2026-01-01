@@ -1,5 +1,11 @@
 # Neural Style Transfer Web App
 
+<p align="center">
+  <a href="https://neural-style-transfer-mfeke2scdkwbajkjsgwc4q.streamlit.app/">
+    <img src="Demo.png" width="100" />
+  </a>
+</p>
+
 A beautiful and interactive **Streamlit** web application that applies **Arbitrary Neural Style Transfer** to any uploaded image using the pre-trained Magenta model from TensorFlow Hub.
 
 Transform your photos into stunning artworks inspired by 9 different artistic styles in seconds — powered entirely by deep learning!
